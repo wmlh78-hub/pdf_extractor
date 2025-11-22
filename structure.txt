@@ -1,0 +1,19 @@
+pdf_extractor/
+│
+├── app.py                  # Main Flask application
+├── requirements.txt        # All Python dependencies
+├── README.md               # Project description and instructions
+├── .gitignore              # Files/folders to ignore in Git
+│
+├── templates/              # HTML templates
+│   └── upload.html         # Example: file upload page
+│
+├── static/                 # Static files (CSS, JS, images)
+│   └── style.css           # Optional styling for your web page
+│
+├── uploads/                # Folder for temporarily storing uploaded PDFs
+│   └── (uploaded PDFs here)
+│
+├── extracted_data/         # Output folder for Excel files
+│   └── extracted_data.xlsx
+│

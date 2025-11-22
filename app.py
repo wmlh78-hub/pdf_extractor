@@ -6,8 +6,9 @@ import re
 
 app = Flask(__name__)
 UPLOAD_FOLDER = "uploads"
-EXCEL_FILE = "output.xlsx"
+EXCEL_FILE = os.path.join(UPLOAD_FOLDER, "output.xlsx")
 
+# Ensure upload folder exists
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 data_list = []  # store uploaded data
